@@ -19,8 +19,8 @@ const Categories = ({products, category}:CategoriesProps) => {
   return (
     <div >
      <h1>
-     {PrismicDOM.RichText.asText(category.data.title)}
-       </h1>
+        {PrismicDOM.RichText.asText(category.data.title)}
+     </h1>
      <div >
       <ul>
         {products.map(Product=>{
